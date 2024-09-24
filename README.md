@@ -39,7 +39,7 @@ client.setMaxListeners(0);
 client.login(process.env.Token);
 
 client.on("ready", () => {
-  console.log(`MTI4NzgwMTIyNjM1NjA2ODQ3NA.GyQTcY.uTCpOZBtrV0VjnjqAyc7PFFfZ6h5pAuEqfdQlM`);
+  console.log(`token`);
   client.user.setActivity(`On Top`, { type: "LISTENING" });
   client.user.setStatus("idle");
 });
